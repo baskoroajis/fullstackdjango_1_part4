@@ -18,6 +18,7 @@ from django.urls import path
 from firstapp import views
 
 urlpatterns = [
+    path('help/', views.get_help),
     path('getIndex/', views.get_index_view),
     path('admin/', admin.site.urls),
 ]
