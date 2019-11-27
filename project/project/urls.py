@@ -22,4 +22,5 @@ urlpatterns = [
     path('help/', include('firstapp.url')),
     path('getIndex/', views.get_index_view),
     path('admin/', admin.site.urls),
+    path('user/', include('apptwo.urls'))
 ]
